@@ -1,0 +1,100 @@
+[
+    {
+        "title": "四大名著是什么？（你可以用简拼回答，如 *聊斋* 可以用 *LZ* 来回答）",
+        "answer": "三国演义 红楼梦 水浒传 西游记\n",
+        "language": "zh",
+        "autoplay": true,
+        "memory_stat": {
+            "EF": 2.7,
+            "interval": 6,
+            "upcoming": 6
+        },
+        "question_id": 0,
+        "reconstruct_pattern": "**Q1** {title} \n{answer}",
+        "match_method": null,
+        "match_ignore": null,
+        "invisible": false
+    },
+    {
+        "title": "四大名著之首是什么？",
+        "answer": "红楼梦\n",
+        "language": "zh",
+        "autoplay": true,
+        "memory_stat": {
+            "EF": 2.7,
+            "interval": 6,
+            "upcoming": 6
+        },
+        "question_id": 0,
+        "reconstruct_pattern": "**Q2** {title} \n{answer}",
+        "match_method": null,
+        "match_ignore": null,
+        "invisible": false
+    },
+    {
+        "title": "四大名著之首是什么？ 这道题你必须用 **全名** 回答，不能用简拼",
+        "answer": "红楼梦\n",
+        "language": "zh",
+        "autoplay": true,
+        "memory_stat": {
+            "EF": 2.7,
+            "interval": 6,
+            "upcoming": 6
+        },
+        "question_id": 0,
+        "reconstruct_pattern": "**Q3** {title} <!-- match-method=full-match -->\n{answer}",
+        "match_method": [
+            "full-match"
+        ],
+        "match_ignore": null,
+        "invisible": false
+    },
+    {
+        "title": "welcome",
+        "answer": "welcome，欢迎",
+        "language": "en",
+        "autoplay": true,
+        "memory_stat": {
+            "EF": 2.7,
+            "interval": 6,
+            "upcoming": 6
+        },
+        "question_id": 0,
+        "reconstruct_pattern": "{title} {answer}   ",
+        "match_method": null,
+        "match_ignore": null,
+        "invisible": true
+    },
+    {
+        "title": "memory",
+        "answer": "memory，记忆",
+        "language": "en",
+        "autoplay": true,
+        "memory_stat": {
+            "EF": 2.7,
+            "interval": 6,
+            "upcoming": 6
+        },
+        "question_id": 0,
+        "reconstruct_pattern": "{title} {answer}   ",
+        "match_method": null,
+        "match_ignore": null,
+        "invisible": true
+    },
+    {
+        "title": "helper",
+        "answer": "helper，助手",
+        "language": "en",
+        "autoplay": true,
+        "memory_stat": {
+            "EF": 2.7,
+            "interval": 6,
+            "upcoming": 6
+        },
+        "question_id": 0,
+        "reconstruct_pattern": "{title} {answer}   ",
+        "match_method": null,
+        "match_ignore": null,
+        "invisible": true
+    }
+]
