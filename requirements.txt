@@ -1,0 +1,14 @@
+langdetect
+sounddevice
+gTTS
+librosa
+tqdm
+langdetect
+regex
+jieba
+nagisa
+pypinyin
+numpy
+sklearn
+rich
+pyfiglet
